@@ -52,3 +52,55 @@ To build the app, I will need:
 - authentication for secure login,
 - cloud hosting or a backend service, such as Firebase or Supabase,
 - a design tool, such as Figma, to design the app screens.
+
+## INITIATIVE
+
+**Make planning and booking personal training sessions easier.**
+
+Help personal trainers and their clients manage training sessions in one mobile app for iPhone and Android, reducing the time spent arranging sessions through messages.
+
+## EPICS AND USER STORIES
+
+### EPIC 1: Accounts, Invitations, and Login
+
+Allow trainers to register independently and clients to join only through an invitation from their trainer.
+
+- **US1.1:** As a trainer, I want to create an account so that I can manage my clients and training sessions.
+- **US1.2:** As a trainer, I want to invite a client by email so that they can book my available training sessions.
+- **US1.3:** As an invited client, I want to create my account and set my own password through the invitation so that I can access the app.
+- **US1.4:** As an invited client, I want my account to be automatically linked to the trainer who invited me so that I can book sessions with that trainer.
+- **US1.5:** As a trainer or client, I want to log in to my account so that I can access my bookings and schedule.
+
+### EPIC 2: Available Training Time Slots
+
+Allow trainers to offer available time slots and their clients to view them.
+
+- **US2.1:** As a trainer, I want to create available 60-minute time slots so that my clients can book training sessions.
+- **US2.2:** As a client, I want to view my trainer's available time slots so that I can choose a suitable training time.
+
+### EPIC 3: Booking and Approval
+
+Allow clients to request training sessions and trainers to approve or reject them.
+
+- **US3.1:** As a client, I want to book an available time slot so that I can request a training session with my trainer.
+- **US3.2:** As a client, I want to add a note that two people will attend so that my trainer knows the session is for a pair.
+- **US3.3:** As a client, I want my requested time slot to be held while the booking is pending so that another client cannot book the same slot.
+- **US3.4:** As a trainer, I want to approve or reject a pending booking so that I can confirm whether the session will take place.
+- **US3.5:** As a client, I want to see the status of my booking so that I know whether it is pending, approved, or rejected.
+- **US3.6:** As a trainer, I want a rejected time slot to become available again so that another client can book it.
+
+### EPIC 4: Training Schedule and Booking Overview
+
+Give trainers and clients a clear overview of their training sessions.
+
+- **US4.1:** As a client, I want to view my booked training sessions so that I know when I have training.
+- **US4.2:** As a trainer, I want to view my schedule and my clients' bookings so that I can plan my working day.
+- **US4.3:** As a trainer, I want access to only my own clients, time slots, and bookings so that I can manage my work separately from other trainers.
+
+### EPIC 5: Booking Cancellation
+
+Allow trainers and clients to cancel bookings according to the cancellation rules.
+
+- **US5.1:** As a client, I want to cancel a booking at least 12 hours before the session starts so that I can release the time slot if I cannot attend.
+- **US5.2:** As a trainer, I want to cancel a booking at any time so that I can respond to changes in my availability.
+- **US5.3:** As a trainer, I want a cancelled time slot to become available again so that a client can book it.
